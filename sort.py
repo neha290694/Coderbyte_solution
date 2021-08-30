@@ -1,5 +1,5 @@
 
-def sort(a):
+def sort(a):                     # sorting array by using bubble sort
     for i in range(len(a)-1,0,-1):
         for j in range(i):
             if a[j]>a[j+1]:
@@ -9,15 +9,16 @@ def sort(a):
     
     return a
 
-def f_max(x):
+def f_max(x):                   # first max
     f_max = a[len(x)-1]
     return f_max
 
-def s_max(x):
-    s_max = x[-2]
+def s_max(x):                    # second max
+    s_max = x[-2]                # We can use negative index / a[len(x)-2]
     return s_max
 
-def duplicate(x):
+
+def duplicate(x):                # removing duplicates
     res = []
     for i in x:
         if i not in res:
@@ -25,7 +26,7 @@ def duplicate(x):
                 
     return res
 
-a = [5,3,6,8,5,7,2,2,3]
+a = [1,2,6,3,9,2,1,5,4,8,3]
 print("Given Array - ",a)
 x=sort(a)
 print("Sorted Array - ",x)
