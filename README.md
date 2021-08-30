@@ -49,3 +49,17 @@ would return 6). Words will be separated by single spaces.
 - Input : "one 22 three"                 
 - Output:  3
 #### Solution:
+
+## 5.Write function for-
+- Write the function to sort an array.
+- Write the function for finding the first maximum value in the given array.
+- Write the function for finding the second maximum value in the given array.
+- Write the function for removing all the duplicates in the given array.
+
+### Examples
+- Input :  [1,2,6,3,9,2,1,5,4,8,3]               
+- Output: 
+-         Sorted Array -[1,1,2,2,3,3,4,5,6,8,9]
+-         First_max = 9
+-         Second_max = 8
+-         Array after removing duplicates -[1,2,3,4,5,6,8,9]
