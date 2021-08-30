@@ -50,7 +50,7 @@ would return 6). Words will be separated by single spaces.
 - Output:  3
 #### Solution:
 
-## 5.Write function for array -
+## 5.Write function for array - (sorting)
 - Write the function to sort an array.
 - Write the function for finding the first maximum value in the given array.
 - Write the function for finding the second maximum value in the given array.
