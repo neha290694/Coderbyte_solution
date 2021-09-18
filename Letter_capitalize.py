@@ -1,9 +1,9 @@
 
-def LetterCapitalize(s):
+def letter_capitalize(s):
     j = s.title()
 
     return j
 
 s = input("Input:")
-t = LetterCapitalize(s)
+t = letter_capitalize(s)
 print(t)
